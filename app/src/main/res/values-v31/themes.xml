@@ -1,0 +1,8 @@
+<resources>
+    <!-- Splash screen: clean white background + unmasked square NaturePulse logo (Android 12+) -->
+    <style name="Theme.NaturePulse.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#FEFEFE</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.NaturePulse</item>
+    </style>
+</resources>

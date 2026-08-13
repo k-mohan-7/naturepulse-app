@@ -1,0 +1,18 @@
+<resources>
+    <style name="Theme.NaturePulse" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Transparent status/nav bars — Compose manages colors via WindowCompat -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowBackground">#FEFEFE</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <!-- Splash screen: clean white background + unmasked square NaturePulse logo -->
+    <style name="Theme.NaturePulse.Splash" parent="Theme.SplashScreen">
+        <!-- Pure near-white background -->
+        <item name="windowSplashScreenBackground">#FEFEFE</item>
+        <!-- Unmasked NaturePulse elephant logo -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <item name="postSplashScreenTheme">@style/Theme.NaturePulse</item>
+    </style>
+</resources>
