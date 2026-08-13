@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- NaturePulse zoomed-out logo as adaptive icon foreground -->
+<!-- NaturePulse ultra zoomed-out logo foreground -->
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:drawable="@drawable/ic_launcher_logo"
+        android:width="44dp"
+        android:height="44dp"
         android:gravity="center" />
 </layer-list>
